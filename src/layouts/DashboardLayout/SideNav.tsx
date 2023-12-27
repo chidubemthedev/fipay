@@ -100,7 +100,7 @@ const SideNav = ({ isOpen, setIsOpen }: any) => {
                       // eslint-disable-next-line no-constant-condition
                       `${
                         isNavActive(nav)
-                          ? "bg-[#D0F5EE80] text-primary font-bold hover:text-orange"
+                          ? "sidenavItem text-primary font-bold hover:text-orange"
                           : ""
                       } relative flex items-center gap-x-5  p-4 px-0 pl-10 rounded-lg cursor-pointer w-full text-[#8C8B8B] hover:text-[#8C8B8B] `
                     }
@@ -149,7 +149,7 @@ const SideNav = ({ isOpen, setIsOpen }: any) => {
                           <p
                             className={`text-sm  font-base hover:text-inherit p-1 px-2 rounded-md ${
                               isNavActive(nav)
-                                ? "bg-[#D0F5EE80] text-primary font-medium hover:text-orange mt-4"
+                                ? "sidenavItem text-primary font-medium hover:text-orange mt-4"
                                 : "mt-4"
                             }`}
                           >
@@ -167,7 +167,7 @@ const SideNav = ({ isOpen, setIsOpen }: any) => {
                   className={({ isActive }) =>
                     `${
                       isActive
-                        ? "bg-[#D0F5EE80] text-primary font-bold hover:text-orange"
+                        ? "sidenavItem text-primary font-bold hover:text-orange"
                         : ""
                     } relative flex items-center gap-x-5  p-4 px-0 pl-10 rounded-lg cursor-pointer w-full text-[#8C8B8B] hover:text-[#8C8B8B] `
                   }

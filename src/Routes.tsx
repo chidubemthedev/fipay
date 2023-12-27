@@ -4,12 +4,14 @@ import Home from "./pages/Home/";
 
 import ProtectedRoute from "./ProtectedRoute";
 import NotFound from "./pages/Error/NotFound";
+import Payments from "./pages/Payment";
 
 const AppRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/payments" element={<Payments />} />
 
         {/* Protected Routes */}
         <Route

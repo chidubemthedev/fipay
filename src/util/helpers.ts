@@ -99,7 +99,7 @@ export const appNavs = [
   },
   {
     name: "Paymant Link",
-    link: "/jobs",
+    link: "/payments",
     icon: "/icons/payment-inactive.svg",
     activeIcon: "/icons/payment-active.svg",
     roles: ["USER"],
