@@ -41,7 +41,7 @@ const Header = ({ userData, isOpen, setIsOpen }: any) => {
   ];
 
   return (
-    <nav className="fixed top-0 right-0 h-[80px] flex items-center flex-wrap bg-[#fff] p-5 lg:px-10 w-full  lg:w-[82%] ml-auto lg:justify-end justify-start z-40 font-walsheim">
+    <nav className="fixed top-0 right-0 h-[80px] flex items-center flex-wrap bg-[#fff] lg:px-10 w-full  lg:w-[82%] ml-auto lg:justify-end justify-start z-40 font-walsheim">
       <div
         onClick={handleClick}
         className="lg:hidden flex items-center justify-center gap-[20px]"
