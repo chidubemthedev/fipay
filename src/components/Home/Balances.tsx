@@ -1,4 +1,4 @@
-import { Balance } from "../../assets/icons";
+import { Balance, BalanceAlt } from "../../assets/icons";
 import Card from "../Utils/Card";
 
 const Balances = () => {
@@ -8,10 +8,14 @@ const Balances = () => {
         Balances
       </h1>
       <div className="grid lg:grid-cols-4 mt-[16px] mb-[24px] gap-8">
-        <Card icon={<Balance />} number={0} title="Account Balance" />
-        <Card icon={<Balance />} number={0} title="Total Payout" />
-        <Card icon={<Balance />} number={0} title="Total Inflow" />
-        <Card icon={<Balance />} number={0} title="Total No of Transactions" />
+        <Card icon={<Balance />} number={3500} title="Account Balance" />
+        <Card icon={<BalanceAlt />} number={2000} title="Total Payout" />
+        <Card icon={<Balance />} number={10000} title="Total Inflow" />
+        <Card
+          icon={<BalanceAlt />}
+          transactions={500}
+          title="Total No of Transactions"
+        />
       </div>
     </div>
   );
