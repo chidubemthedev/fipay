@@ -46,7 +46,7 @@ const SideNav = ({ isOpen, setIsOpen }: any) => {
     }
   };
 
-  const handleNavClick = (e: any, nav: any) => {
+  const handleNavClick = (nav: any) => {
     const navDropdown = document.getElementById(`nav-dropdown-${nav.name}`);
     navDropdown?.classList.contains("active")
       ? navDropdown?.classList.remove("active")
@@ -137,12 +137,12 @@ const SideNav = ({ isOpen, setIsOpen }: any) => {
                         />
                       </svg>
                     </div>
-                    {nav?.children.map((nav) => {
+                    {nav?.children.map((nav: any) => {
                       return (
                         <NavLink
                           key={nav.name}
                           to={nav.link}
-                          className={({ isActive }) =>
+                          className={() =>
                             ` relative flex items-center text-left gap-x-5  w-max  ml-[4.5rem] rounded-lg cursor-pointer w-full text-[#8C8B8B] hover:text-[#8C8B8B] `
                           }
                         >

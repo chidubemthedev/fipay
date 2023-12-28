@@ -29,7 +29,7 @@ export const formatDateByMonthAndYear = (date: any) => {
   const month = new Intl.DateTimeFormat("en", { month: "long" }).format(
     newDate
   );
-  const day = new Intl.DateTimeFormat("en", { day: "2-digit" }).format(newDate);
+  // const day = new Intl.DateTimeFormat("en", { day: "2-digit" }).format(newDate);
   return `${month}  ${year}`;
 };
 
@@ -89,6 +89,8 @@ export const appNavs = [
     icon: "/icons/home-inactive.svg",
     activeIcon: "/icons/home-active.svg",
     roles: ["ADMIN", "USER"],
+    hasChildren: false,
+    children: [],
   },
   {
     name: "Transactions",
@@ -96,6 +98,8 @@ export const appNavs = [
     icon: "/icons/transactions-inactive.svg",
     activeIcon: "/icons/transactions-active.svg",
     roles: ["USER"],
+    hasChildren: false,
+    children: [],
   },
   {
     name: "Paymant Link",
@@ -103,6 +107,8 @@ export const appNavs = [
     icon: "/icons/payment-inactive.svg",
     activeIcon: "/icons/payment-active.svg",
     roles: ["USER"],
+    hasChildren: false,
+    children: [],
   },
   {
     name: "Invoice",
@@ -110,6 +116,8 @@ export const appNavs = [
     icon: "/icons/invoice-inactive.svg",
     activeIcon: "/icons/invoice-active.svg",
     roles: ["USER"],
+    hasChildren: false,
+    children: [],
   },
   {
     name: "Reports",
@@ -117,6 +125,8 @@ export const appNavs = [
     icon: "/icons/reports-inactive.svg",
     activeIcon: "/icons/reports-active.svg",
     roles: ["USER"],
+    hasChildren: false,
+    children: [],
   },
 
   {
@@ -125,5 +135,7 @@ export const appNavs = [
     icon: "/icons/settings-inactive.svg",
     activeIcon: "/icons/settings-active.svg",
     roles: ["USER", "ADMIN"],
+    hasChildren: false,
+    children: [],
   },
 ];
