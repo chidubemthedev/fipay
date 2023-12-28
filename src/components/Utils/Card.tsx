@@ -17,7 +17,7 @@ const Card = ({ icon, title, number }: CardProps) => {
         <p className="text-sm font-[400] text-[#5E5E5E] leading-[24px] tracking-[0.28px]">
           {title}
         </p>
-        <p className="text-3xl text-[#0E0E0E] font-bold mt-4">{number}</p>
+        <p className="text-3xl text-[#0E0E0E] font-bold mt-4">${number}.00</p>
       </div>
     </div>
   );
