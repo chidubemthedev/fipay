@@ -1,9 +1,6 @@
-import React from "react";
 import DashboardLayout from "../../layouts/DashboardLayout";
 
-type Props = {};
-
-const Payments = (props: Props) => {
+const Payments = () => {
   return (
     <DashboardLayout>
       <div>Payments</div>

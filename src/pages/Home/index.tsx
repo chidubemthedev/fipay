@@ -1,18 +1,14 @@
-import React from "react";
-import DashboardLayout from "../../layouts/DashboardLayout";
-import Header from "../../components/Home/Header";
 import Balances from "../../components/Home/Balances";
+import Header from "../../components/Home/Header";
 import Products from "../../components/Home/Products";
+import DashboardLayout from "../../layouts/DashboardLayout";
 
-type Props = {};
-
-const Home = (props: Props) => {
+const Home = () => {
   return (
     <DashboardLayout>
       <Header />
       <Balances />
       <Products />
-      <div>Home Page</div>
     </DashboardLayout>
   );
 };
