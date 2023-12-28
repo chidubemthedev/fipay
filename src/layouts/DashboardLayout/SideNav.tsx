@@ -104,7 +104,7 @@ const SideNav = ({ isOpen, setIsOpen }: any) => {
                           : ""
                       } relative flex items-center gap-x-5  p-4 px-0 pl-10 rounded-lg cursor-pointer w-full text-[#8C8B8B] hover:text-[#8C8B8B] `
                     }
-                    onClick={(e: any) => handleNavClick(e, nav)}
+                    onClick={() => handleNavClick(nav)}
                   >
                     <img src={handleNavIcon(nav)} alt="" />
 
