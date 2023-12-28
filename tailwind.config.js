@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "#00A603",
+        header: "#09005B",
       },
       backgroundColor: {
         productIconBackground: "rgba(255, 255, 255, 0.60)",
