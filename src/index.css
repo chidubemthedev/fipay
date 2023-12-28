@@ -1,6 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "walsheim";
+  src: url("/fonts/GTWalsheimPro-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "walsheim";
+  src: url("/fonts/GTWalsheimPro-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "walsheim";
+  src: url("/fonts/GTWalsheimPro-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "walsheim";
+  src: url("/fonts/GTWalsheimPro-Black.ttf");
+  font-weight: 900;
+}
+
+.inter {
+  font-family: "inter";
+}
 
 body {
   margin: 0;

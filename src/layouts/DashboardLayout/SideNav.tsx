@@ -74,7 +74,7 @@ const SideNav = ({ isOpen, setIsOpen }: any) => {
         isOpen
           ? "block left-0 w-[80%] opacity-1"
           : "w-0 left-[-20%] md:left-[-40%] lg:left-0 opacity-1"
-      } lg:block md:w-[25%] lg:w-[18%] bg-white h-screen fixed top-0 p-5 px-0 flex flex-col justify-between z-50 pt-0 sidenav-transition`}
+      } lg:block md:w-[25%] lg:w-[18%] bg-white h-screen fixed top-0 p-5 px-0 flex flex-col justify-between z-50 pt-0 sidenav-transition font-walsheim`}
     >
       <div className="pt-5 lg:pt-12 h-full overflow-y-auto hidden-scrollbar">
         <Link

@@ -51,7 +51,7 @@ const Products = () => {
   ];
 
   return (
-    <div className="bg-white rounded-[10px] border border-[#E8EAED] shadow-balanceShadow px-[20px] pt-[24px] mt-[30px]">
+    <div className="bg-white rounded-[10px] border border-[#E8EAED] shadow-balanceShadow px-[20px] pt-[24px] mt-[30px] font-walsheim">
       <h1 className="text-[18px] font-medium leading-[32px] tracking-[0.36px]">
         Our Products
       </h1>

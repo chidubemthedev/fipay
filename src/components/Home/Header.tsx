@@ -3,7 +3,7 @@ import handWave from "../../assets/images/hand-wave.png";
 
 const Header = () => {
   return (
-    <div>
+    <div className="font-walsheim">
       <div className="my-3 flex flex-col gap-3 sm:flex-row items-start sm:items-center justify-between">
         <div className="space-y-1">
           <h2 className="text-xl md:text-2xl font-bold tracking-tght text-neutral-800 flex items-center gap-2">

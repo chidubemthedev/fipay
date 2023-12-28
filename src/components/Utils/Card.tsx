@@ -17,7 +17,7 @@ const Card = ({ icon, title, number, transactions }: CardProps) => {
           {title}
         </p>
         {number && number >= 0 && (
-          <p className="text-3xl text-[#0E0E0E] font-bold mt-4 tracking-[0.5px]">
+          <p className="text-3xl text-[#0E0E0E] font-[600] mt-4 tracking-[0.5px] font-inter">
             ${number.toLocaleString()}
             <span className="text-[16px] leading-[24px] tracking-[0.32px]">
               .00
@@ -25,7 +25,7 @@ const Card = ({ icon, title, number, transactions }: CardProps) => {
           </p>
         )}
         {transactions === 500 && (
-          <p className="text-3xl text-[#0E0E0E] font-bold mt-4 tracking-[0.5px]">
+          <p className="text-3xl text-[#0E0E0E] font-[600] mt-4 tracking-[0.5px] font-inter">
             {transactions}
           </p>
         )}
