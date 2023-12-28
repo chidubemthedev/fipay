@@ -78,7 +78,10 @@ const Products = () => {
               <p className="text-sm font-[400] text-[#5E5E5E] leading-[24px] tracking-[0.28px] pt-[9px]">
                 {product.description}
               </p>
-              <button className="mt-[34px] text-[#0E0E0E] text-[14px] leading-[24px] tracking-[0.28px] font-medium bg-[#F7F7F7] border border-[#E8EAED] rounded-[10px] p-[10px] h-[44px] w-full flex items-center justify-center">
+              <button
+                disabled={!product.stable}
+                className="mt-[34px] text-[#0E0E0E] text-[14px] leading-[24px] tracking-[0.28px] font-medium bg-[#F7F7F7] border border-[#E8EAED] rounded-[10px] p-[10px] h-[44px] w-full flex items-center justify-center disabled:cursor-not-allowed"
+              >
                 {product.buttonText}
               </button>
             </div>
