@@ -25,7 +25,7 @@ const Header = () => {
 
         <div className="text-neutral-800 flex gap-[16px] bg-primary-600 items-center rounded-[30px] sm:px-6 py-3 ">
           <Link
-            to={"/"}
+            to={"/payments"}
             className="text-[#00A603] text-sm font-medium  border border-[#00A603] rounded-[10px] p-[10px] h-[48px] w-[149px] flex items-center justify-center"
           >
             Make Payout
