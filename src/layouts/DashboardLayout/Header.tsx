@@ -14,22 +14,22 @@ const Header = ({ userData, isOpen, setIsOpen }: any) => {
 
   const notifications = [
     {
-      type: "Job Appliation",
+      type: "Debit Alert!",
       time: "12:00 PM",
       desc: "Lorem ipsum dolor sit amet . ",
     },
     {
-      type: "Job Appliation",
+      type: "Credit Alert!",
       time: "12:00 PM",
       desc: "Lorem ipsum dolor sit amet . ",
     },
     {
-      type: "Job Appliation",
+      type: "Debit Alert!",
       time: "12:00 PM",
       desc: "Lorem ipsum dolor sit amet . ",
     },
     {
-      type: "Job Appliation",
+      type: "Credit Alert!",
       time: "12:00 PM",
       desc: "Lorem ipsum dolor sit amet . ",
     },
@@ -74,7 +74,7 @@ const Header = ({ userData, isOpen, setIsOpen }: any) => {
               alt=""
               className="w-[1rem] md:w-[1.2rem]"
             />
-            <span className="w-2 h-2 rounded-full bg-[#FA3E3E] absolute left-[0.9rem] top-[0.35rem] md:left-[1.3rem] md:top-[0.6rem] border border-white"></span>
+            <span className="w-2 h-2 rounded-full bg-primary absolute left-[0.9rem] top-[0.35rem] md:left-[1.3rem] md:top-[0.6rem] border border-white"></span>
           </div>
           {showNotificationDropdown && (
             <NotificationDropdown
